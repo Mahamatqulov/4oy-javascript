@@ -17,7 +17,7 @@
 // }
 // console.log("1 dan " + n + " gacha bo'lgan barcha sonlar yig'indisi: " + son);
 
-//4-misol
+// 4 - misol;
 // let n = prompt("n sonini kiriting");
 // let son = 0;
 // for (let i = 1; i <= n; i++) {
@@ -43,7 +43,7 @@
 //   "1 dan " + n + " gacha bo'lgan barcha toq sonlar yig'indisi: " + son
 // );
 
-//6-misol
+// 6-misol
 // let n = prompt("Sonni kiriting");
 // console.log(n + " sonining bo'luvchilari:");
 // for (let i = 1; i <= n; i++) {
@@ -85,10 +85,10 @@
 //   console.log(n + " soni tub emas.");
 // }
 
-//9-misol
-
-// let k = prompt("K sonini kiriting");
-// let n = prompt("N sonini kiriting (n > 0)");
+//////////////////////////////////////////
+//for-1
+// let k = prompt("k sonini kiriting");
+// let n = prompt("n sonini kiriting (n > 0)");
 // k = parseInt(k);
 // n = parseInt(n);
 // if (n > 0) {
@@ -99,7 +99,7 @@
 //   console.log("N musbat son bo'lishi kerak.");
 // }
 
-//10-misol
+//for-2
 // let a = prompt("A sonini kiriting");
 // let b = prompt("B sonini kiriting");
 // let start = Math.min(a, b);
@@ -111,7 +111,7 @@
 //   count++;
 // }
 
-//11-misol
+//for-3
 // let a = prompt("A sonini kiriting ");
 // let b = prompt("B sonini kiriting ");
 // if (a >= b) {
@@ -122,28 +122,28 @@
 //   }
 // }
 
-//12-misol
+//for-4
 // let a = prompt("Necha kg konfet olmoqchisiz?");
 // let sum = 100;
 // for (let i = 1; i <= 10; i++) {
 //   console.log(i, "kg konfet narxi:", i * sum, "so'm");
 // }
 
-//13-misol
+//for-5
 // let a = prompt("Necha kg konfet olmoqchisiz?");
 // let sum = 100;
 // for (let i = 0.1; i <= 0.9; i += 0.1) {
 //   console.log(i, "kg konfet narxi:", i * sum, "so'm");
 // }
 
-//14-misol
+//for-6
 // let a = prompt("Necha kg konfet olmoqchisiz?");
 // let sum = 100;
 // for (let i = 1.2; i <= 2; i += 0.1) {
 //   console.log(i, "kg konfet narxi:", i * sum, "so'm");
 // }
 
-//15-misol
+//for-7
 // let a = parseInt(prompt("a sonini kiriting "));
 // let b = parseInt(prompt("b sonini kiriting "));
 
@@ -157,7 +157,7 @@
 //   console.log("a dan b gacha bo'lgan sonlar yig'indisi: " + sum);
 // }
 
-//16-misol
+//for-8
 // let a = parseInt(prompt("a sonini kiriting "));
 // let b = parseInt(prompt("b sonini kiriting "));
 
@@ -171,7 +171,7 @@
 //   console.log("a dan b gacha bo'lgan sonlar ko'paytmasi: " + sum);
 // }
 
-//17-misol
+//for-9
 // let a = parseInt(prompt("a sonini kiriting "));
 // let b = parseInt(prompt("b sonini kiriting "));
 // if (a >= b) {
@@ -183,7 +183,7 @@
 //   console.log("a dan b gacha bo'lgan sonlar kvadartlar yigindisi: " + sum);
 // }
 
-//18-misol
+//for-10
 // let n = prompt("son kiriting");
 // if (n > 0);
 // {
@@ -194,7 +194,7 @@
 //   console.log(sum);
 // }
 
-//19-misol
+//for-11
 // let n = prompt("son kiriting");
 // if (n > 0) {
 //   let sum = 0;
@@ -204,12 +204,12 @@
 //   console.log(sum);
 // }
 
-//20-misol
-let n = prompt("son kiriting");
-if (n > 0) {
-  let sum = 1;
-  for (let i = 1; i <= n; i++) {
-    sum *= 1 + i / 10;
-  }
-  console.log(sum);
-}
+//for-12
+// let n = prompt("son kiriting");
+// if (n > 0) {
+//   let sum = 1;
+//   for (let i = 1; i <= n; i++) {
+//     sum *= 1 + i / 10;
+//   }
+//   console.log(sum);
+// }
